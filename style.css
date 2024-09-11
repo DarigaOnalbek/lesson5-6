@@ -1,0 +1,339 @@
+
+.containers{
+    display: flex;
+  
+}
+
+.box1{
+    border: 1px solid black;
+    flex:1;
+    display: flex;
+    justify-content: left;
+    height: 150px;
+    background-color: aqua;
+    align-items:  center;
+}
+
+.box2{
+    border: 1px solid black;
+    flex:1;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+    height: 150px;
+    background-color: aqua;
+    align-items:  center;
+}
+
+.box3{
+    border: 1px solid black;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: aqua;
+    align-items:  center;
+}
+.box4{
+    border: 1px solid black;
+    flex:1;
+    margin-left: 10px;
+    display: flex;
+    align-items:  center;
+    height: 150px;
+    background-color: aqua;
+}
+p{
+    color:black;
+
+}
+.box4{
+    border: 1px solid black;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: aqua;
+    align-items:  center;
+}
+.box5{
+    border: 1px solid black;
+    flex:2;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: aqua;
+    align-items:  center;
+}
+.box6{
+    border: 1px solid black;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: aqua;
+    align-items:  center;
+}
+.box7{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    background-color: aqua;
+    align-items:  center;
+}
+.box8{
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    align-items:  center;
+}
+.box9{
+    border: 1px solid black;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: aqua;
+    align-items:  center;
+}
+.class1{
+    border: 1px solid gray;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items:flex-end;
+   justify-content: right;
+}
+.text{
+    border: 1px solid black;
+    display: flex;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    padding:10px 10px 10px 10px;
+    position:relative;
+    justify-content: right;
+}
+.text2{
+    border:1px solid red;
+    background-color: red;
+    color: red;
+    display: flex;
+    width: 40px;
+    height: 40px; 
+    position:absolute;
+    justify-content: right;
+}
+.basket{
+    border:1px solid black;
+    background-color: aqua;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    align-items: center;
+   font-size: 6px;
+}
+.basket1{
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    justify-content:flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 30px ;
+    height: 30px;
+    margin: 0px;
+}
+.basket2{
+    border: 1px solid red;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    justify-content:right;
+    align-items: end;
+    margin: 65px;
+    width: 30px ;
+    height: 30px;
+
+}
+.basket3{
+    border: 1px solid red;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin: 120px;
+    width: 30px ;
+    height: 30px;
+}
+.containerr{
+    border:1px solid black;
+    background-color: cadetblue;
+    position: relative;
+    display:block;
+    width: 250px;
+    height: 250px;
+    position: relative;
+  
+   text-orientation: upright;
+}
+.sguare1{
+    border:1px solid red;
+    background-color:red;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+    margin-left: 90px;
+    text-align:end;
+    font-size: 10px;
+
+}
+.sguare2{
+    border:1px solid red;
+    background-color:red;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+    margin-left: 90px;
+    font-size: 10px;
+    justify-content:flex-start;
+    align-items: flex-end;
+    display: flex;
+}
+.sguare3{
+    border:1px solid red;
+    background-color:red;
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+    font-size: 10px;
+    justify-content:right;
+    align-items: flex-end;
+    display: flex;
+}
+
+.container2{
+    border:1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.image{
+    width:200px;
+    height:120px;
+    padding-bottom: 10px;
+}
+img {
+ width:100%;
+ height:100%;
+}
+
+.price{
+    display:flex
+}
+.price1{
+    padding-right: 15px;
+}
+.payment{
+    border:1px solid  darkgoldenrod;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.camry{
+    color: cyan;
+  
+    padding-top: 35px;
+}
+.city{
+    color: grey;
+    font-size: small;
+    padding-top: 10px;
+}
+.container3{
+    display: flex ;
+    padding-right: 10px;
+}
+.date{
+    color: grey;
+    font-size: small;
+    padding-right: 18px;
+}
+.preview{
+    color: grey;
+    font-size: small;
+}
+.image2{
+    width: 20px;
+    height: 15px;
+}
+.container4{
+    display: flex;
+}
+.container5{
+    border:1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    padding: 7px;
+    margin-right: 10px;
+}
+.container6{
+    display: flex ;
+    padding-right: 10px;
+}
+.container7{
+    border:1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    padding: 7px;
+    margin-right: 10px;
+}
+.container8{
+    display: flex ;
+    padding-right: 10px;
+}
+.boxx{
+    display:flex;
+    margin-right: 10px;
+}
+.boxx1{
+    border:1px solid green;
+    background-color: green;
+    border-radius: 5px;
+    padding-right: 10px;
+    color:aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.boxx2{
+    border:1px solid gray;
+    background-color: gray;
+    border-radius: 5px;
+    color:aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
